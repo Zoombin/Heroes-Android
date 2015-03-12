@@ -40,7 +40,16 @@
             android:name="com.juhe.heroes.activity.MainActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-
+        </activity>
+        <activity
+            android:name="com.juhe.heroes.activity.ImageListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.juhe.heroes.activity.ImageDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
         </activity>
     </application>
 

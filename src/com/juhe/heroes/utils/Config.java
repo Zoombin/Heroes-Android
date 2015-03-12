@@ -11,6 +11,8 @@ import com.juhe.heroes.HeroesApplication;
  */
 public class Config {
 
+	public static final String IMG_PATH = "assets://";
+	
 	// 用户信息
 	private static String USER_INFO = "USER_INFO";
 	
