@@ -1,0 +1,9 @@
+<resources>
+
+    <style name="Theme.Start" parent="android:Theme">
+        <item name="android:windowBackground">@drawable/welcome</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>
