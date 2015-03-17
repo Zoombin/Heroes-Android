@@ -5,18 +5,34 @@
     android:background="@drawable/lottery_enterbg"
     android:orientation="vertical" >
 
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/main_nav_bg"
-        android:gravity="center"
-        android:paddingBottom="10dip"
-        android:paddingTop="10dip"
-        android:text="群侠杀助手"
-        android:textColor="@android:color/white"
-        android:textSize="24sp" />
+        android:layout_height="wrap_content" >
 
-    <ScrollView
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_nav_bg"
+            android:gravity="center"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip"
+            android:text="群侠杀助手"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tv_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:text="正式版"
+            android:textColor="@android:color/white"
+            android:textSize="22sp" />
+    </RelativeLayout>
+
+    <com.juhe.heroes.widget.CustomScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
 
@@ -24,6 +40,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <com.juhe.heroes.widget.autoscrollviewpager.AutoScrollViewPager
+                    android:id="@+id/viewpager_hero"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <com.juhe.heroes.widget.viewpage.CirclePageIndicator
+                    android:id="@+id/home_page_indicator"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="50dip"
+                    android:padding="10dip" />
+            </RelativeLayout>
 
             <Button
                 android:id="@+id/btn_jian"
@@ -82,21 +116,6 @@
                 android:paddingBottom="15dip"
                 android:paddingTop="15dip"
                 android:text="智计牌"
-                android:textColor="@android:color/white"
-                android:textSize="22sp" />
-
-            <Button
-                android:id="@+id/btn_daxia"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="15dip"
-                android:layout_marginRight="15dip"
-                android:layout_marginTop="10dip"
-                android:background="@drawable/btn_shot_selector"
-                android:gravity="center"
-                android:paddingBottom="15dip"
-                android:paddingTop="15dip"
-                android:text="大侠"
                 android:textColor="@android:color/white"
                 android:textSize="22sp" />
 
@@ -161,6 +180,6 @@
                 android:textColor="@android:color/white"
                 android:textSize="22sp" />
         </LinearLayout>
-    </ScrollView>
+    </com.juhe.heroes.widget.CustomScrollView>
 
 </LinearLayout>

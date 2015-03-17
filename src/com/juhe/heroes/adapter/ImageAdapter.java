@@ -1,4 +1,4 @@
-package com.juhe.heroes.activity;
+package com.juhe.heroes.adapter;
 
 import java.util.List;
 
@@ -13,6 +13,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.juhe.heroes.R;
+import com.juhe.heroes.activity.ImageDetailActivity;
+import com.juhe.heroes.entity.ImageEntity;
 
 
 /***

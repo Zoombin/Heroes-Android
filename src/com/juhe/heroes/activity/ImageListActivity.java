@@ -9,6 +9,8 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.juhe.heroes.R;
+import com.juhe.heroes.adapter.ImageAdapter;
+import com.juhe.heroes.entity.ImageEntity;
 
 public class ImageListActivity extends Activity {
 
@@ -33,21 +35,88 @@ public class ImageListActivity extends Activity {
 		lv_image.setAdapter(adatper);
 		
 		List<ImageEntity> list = new ArrayList<ImageEntity>();
+		ImageEntity entity1;
+		ImageEntity entity2;
+		ImageEntity entity3;
+		ImageEntity entity4;
+		ImageEntity entity5;
+		ImageEntity entity6;
+		ImageEntity entity7;
+		ImageEntity entity8;
+		ImageEntity entity9;
+		ImageEntity entity10;
+		ImageEntity entity11;
+		ImageEntity entity12;
+		ImageEntity entity13;
 		switch (id) {
-		case R.id.btn_jian:
-			ImageEntity entity1 = new ImageEntity();
-			entity1.setName("屠龙刀");
-			entity1.setImagepath("tulongdao.jpg");
+		case 0:
+			entity1 = new ImageEntity();
+			entity1.setName("鳌拜");
+			entity1.setImagepath("hero_aobai.jpg");
 			list.add(entity1);
 			
-			ImageEntity entity2 = new ImageEntity();
-			entity2.setName("倚天剑");
-			entity2.setImagepath("yitianjian.jpg");
+			entity2 = new ImageEntity();
+			entity2.setName("成昆");
+			entity2.setImagepath("hero_chengkun.jpg");
 			list.add(entity2);
 			
-			ImageEntity entity3 = new ImageEntity();
+			entity3 = new ImageEntity();
+			entity3.setName("陈近南");
+			entity3.setImagepath("hero_chenjinnan.jpg");
+			list.add(entity3);
+			
+			adatper.setData(list);
+			break;
+		case 1:
+			entity1 = new ImageEntity();
+			entity1.setName("丁春秋");
+			entity1.setImagepath("hero_dingchunqiu.jpg");
+			list.add(entity1);
+			
+			entity2 = new ImageEntity();
+			entity2.setName("东方不败");
+			entity2.setImagepath("hero_dongfangbubai.jpg");
+			list.add(entity2);
+			                                                                                  
+			entity3 = new ImageEntity();
+			entity3.setName("段誉");
+			entity3.setImagepath("hero_duanyu.jpg");
+			list.add(entity3);
+			
+			adatper.setData(list);
+			break;
+		case 2:
+			entity1 = new ImageEntity();
+			entity1.setName("方证大师");
+			entity1.setImagepath("hero_fangzhengdashi.jpg");
+			list.add(entity1);
+			
+			entity2 = new ImageEntity();
+			entity2.setName("冯锡范");
+			entity2.setImagepath("hero_fengxifan.jpg");
+			list.add(entity2);
+			
+			entity3 = new ImageEntity();
+			entity3.setName("郭靖");
+			entity3.setImagepath("hero_guojing.jpg");
+			list.add(entity3);
+			
+			adatper.setData(list);
+			break;
+		case R.id.btn_jian:
+			entity1 = new ImageEntity();
+			entity1.setName("屠龙刀");
+			entity1.setImagepath("sword_tulong.jpg");
+			list.add(entity1);
+			
+			entity2 = new ImageEntity();
+			entity2.setName("倚天剑");
+			entity2.setImagepath("sword_yitian.jpg");
+			list.add(entity2);
+			
+			entity3 = new ImageEntity();
 			entity3.setName("玄铁剑");
-			entity3.setImagepath("xuantiejian.jpg");
+			entity3.setImagepath("sword_xuantie.jpg");
 			list.add(entity3);
 			
 			adatper.setData(list);
@@ -61,9 +130,7 @@ public class ImageListActivity extends Activity {
 		case R.id.btn_zhiji:
 
 			break;
-		case R.id.btn_daxia:
 
-			break;
 		case R.id.btn_gongfa:
 
 			break;
