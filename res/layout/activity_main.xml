@@ -13,23 +13,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/main_nav_bg"
-            android:gravity="center"
-            android:paddingBottom="10dip"
-            android:paddingTop="10dip"
-            android:text="群侠杀助手"
+            android:gravity="left|center_vertical"
+            android:paddingBottom="8dip"
+            android:paddingTop="8dip"
+            android:paddingLeft="5dip"
+            android:text="请左右滑动选择大侠类型："
             android:textColor="@android:color/white"
-            android:textSize="24sp" />
+            android:textSize="20sp" />
 
-        <TextView
-            android:id="@+id/tv_version"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:layout_marginRight="10dip"
-            android:text="正式版"
-            android:textColor="@android:color/white"
-            android:textSize="22sp" />
     </RelativeLayout>
 
     <com.juhe.heroes.widget.CustomScrollView
@@ -45,7 +36,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" >
 
-                <com.juhe.heroes.widget.autoscrollviewpager.AutoScrollViewPager
+                <android.support.v4.view.ViewPager
                     android:id="@+id/viewpager_hero"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
@@ -60,123 +51,50 @@
             </RelativeLayout>
 
             <Button
-                android:id="@+id/btn_jian"
+                android:id="@+id/btn_card"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="15dip"
-                android:layout_marginRight="15dip"
-                android:layout_marginTop="10dip"
                 android:background="@drawable/btn_shot_selector"
                 android:gravity="center"
                 android:paddingBottom="15dip"
                 android:paddingTop="15dip"
-                android:text="剑"
+                android:text="游戏卡牌"
                 android:textColor="@android:color/white"
                 android:textSize="22sp" />
 
             <Button
-                android:id="@+id/btn_shenfen"
+                android:id="@+id/btn_rule"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="15dip"
-                android:layout_marginRight="15dip"
-                android:layout_marginTop="10dip"
                 android:background="@drawable/btn_shot_selector"
                 android:gravity="center"
                 android:paddingBottom="15dip"
                 android:paddingTop="15dip"
-                android:text="身份牌"
+                android:text="游戏规则"
                 android:textColor="@android:color/white"
                 android:textSize="22sp" />
 
             <Button
-                android:id="@+id/btn_yao"
+                android:id="@+id/btn_weapon"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="15dip"
-                android:layout_marginRight="15dip"
-                android:layout_marginTop="10dip"
                 android:background="@drawable/btn_shot_selector"
                 android:gravity="center"
                 android:paddingBottom="15dip"
                 android:paddingTop="15dip"
-                android:text="药牌"
+                android:text="武器"
                 android:textColor="@android:color/white"
                 android:textSize="22sp" />
 
             <Button
-                android:id="@+id/btn_zhiji"
+                android:id="@+id/btn_expand"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="15dip"
-                android:layout_marginRight="15dip"
-                android:layout_marginTop="10dip"
                 android:background="@drawable/btn_shot_selector"
                 android:gravity="center"
                 android:paddingBottom="15dip"
                 android:paddingTop="15dip"
-                android:text="智计牌"
-                android:textColor="@android:color/white"
-                android:textSize="22sp" />
-
-            <Button
-                android:id="@+id/btn_gongfa"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="15dip"
-                android:layout_marginRight="15dip"
-                android:layout_marginTop="10dip"
-                android:background="@drawable/btn_shot_selector"
-                android:gravity="center"
-                android:paddingBottom="15dip"
-                android:paddingTop="15dip"
-                android:text="功法牌"
-                android:textColor="@android:color/white"
-                android:textSize="22sp" />
-
-            <Button
-                android:id="@+id/btn_luozhandaxia"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="15dip"
-                android:layout_marginRight="15dip"
-                android:layout_marginTop="10dip"
-                android:background="@drawable/btn_shot_selector"
-                android:gravity="center"
-                android:paddingBottom="15dip"
-                android:paddingTop="15dip"
-                android:text="扩展包大侠"
-                android:textColor="@android:color/white"
-                android:textSize="22sp" />
-
-            <Button
-                android:id="@+id/btn_zhaoshi"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="15dip"
-                android:layout_marginRight="15dip"
-                android:layout_marginTop="10dip"
-                android:background="@drawable/btn_shot_selector"
-                android:gravity="center"
-                android:paddingBottom="15dip"
-                android:paddingTop="15dip"
-                android:text="招式"
-                android:textColor="@android:color/white"
-                android:textSize="22sp" />
-
-            <Button
-                android:id="@+id/btn_wanfa"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dip"
-                android:layout_marginLeft="15dip"
-                android:layout_marginRight="15dip"
-                android:layout_marginTop="10dip"
-                android:background="@drawable/btn_shot_selector"
-                android:gravity="center"
-                android:paddingBottom="15dip"
-                android:paddingTop="15dip"
-                android:text="游戏玩法"
+                android:text="扩展包"
                 android:textColor="@android:color/white"
                 android:textSize="22sp" />
         </LinearLayout>

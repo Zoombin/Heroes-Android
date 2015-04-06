@@ -103,43 +103,43 @@ public class ImageListActivity extends Activity {
 			
 			adatper.setData(list);
 			break;
-		case R.id.btn_jian:
-			entity1 = new ImageEntity();
-			entity1.setName("屠龙刀");
-			entity1.setImagepath("sword_tulong.jpg");
-			list.add(entity1);
-			
-			entity2 = new ImageEntity();
-			entity2.setName("倚天剑");
-			entity2.setImagepath("sword_yitian.jpg");
-			list.add(entity2);
-			
-			entity3 = new ImageEntity();
-			entity3.setName("玄铁剑");
-			entity3.setImagepath("sword_xuantie.jpg");
-			list.add(entity3);
-			
-			adatper.setData(list);
-			break;
-		case R.id.btn_shenfen:
-
-			break;
-		case R.id.btn_yao:
-
-			break;
-		case R.id.btn_zhiji:
-
-			break;
-
-		case R.id.btn_gongfa:
-
-			break;
-		case R.id.btn_luozhandaxia:
-
-			break;
-		case R.id.btn_zhaoshi:
-
-			break;
+//		case R.id.btn_jian:
+//			entity1 = new ImageEntity();
+//			entity1.setName("屠龙刀");
+//			entity1.setImagepath("sword_tulong.jpg");
+//			list.add(entity1);
+//			
+//			entity2 = new ImageEntity();
+//			entity2.setName("倚天剑");
+//			entity2.setImagepath("sword_yitian.jpg");
+//			list.add(entity2);
+//			
+//			entity3 = new ImageEntity();
+//			entity3.setName("玄铁剑");
+//			entity3.setImagepath("sword_xuantie.jpg");
+//			list.add(entity3);
+//			
+//			adatper.setData(list);
+//			break;
+//		case R.id.btn_shenfen:
+//
+//			break;
+//		case R.id.btn_yao:
+//
+//			break;
+//		case R.id.btn_zhiji:
+//
+//			break;
+//
+//		case R.id.btn_gongfa:
+//
+//			break;
+//		case R.id.btn_luozhandaxia:
+//
+//			break;
+//		case R.id.btn_zhaoshi:
+//
+//			break;
 		default:
 			break;
 		}

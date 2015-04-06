@@ -7,6 +7,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Paint.Style;
 import android.os.Bundle;
+import android.support.v4.view.ViewPager;
 import android.util.DisplayMetrics;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -18,13 +19,11 @@ import com.juhe.heroes.R;
 import com.juhe.heroes.adapter.HeroAdapter;
 import com.juhe.heroes.entity.HeroEntity;
 import com.juhe.heroes.utils.Config;
-import com.juhe.heroes.widget.autoscrollviewpager.AutoScrollViewPager;
 import com.juhe.heroes.widget.viewpage.CirclePageIndicator;
 
 public class MainActivity extends Activity implements OnClickListener {
 
-	private TextView tv_version;
-	private AutoScrollViewPager viewpager_hero;
+	private ViewPager viewpager_hero;
 	private CirclePageIndicator mIndicator;
 	private Button btn_jian;
 	private Button btn_shenfen;
@@ -39,21 +38,8 @@ public class MainActivity extends Activity implements OnClickListener {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-
-		tv_version = (TextView) findViewById(R.id.tv_version);
-		tv_version.setOnClickListener(new OnClickListener() {
-			
-			@Override
-			public void onClick(View v) {
-				if (tv_version.getText().toString().equals("体验版")) {
-					tv_version.setText("正式版");
-				} else {
-					tv_version.setText("体验版");
-				}
-			}
-		});
 		
-		viewpager_hero = (AutoScrollViewPager) findViewById(R.id.viewpager_hero);
+		viewpager_hero = (ViewPager) findViewById(R.id.viewpager_hero);
 		mIndicator = (CirclePageIndicator) findViewById(R.id.home_page_indicator);
 		mIndicator.setFillColor(
 				Style.FILL,
@@ -95,22 +81,22 @@ public class MainActivity extends Activity implements OnClickListener {
 		mIndicator.setViewPager(viewpager_hero, herolist.size()
 				* CirclePageIndicator.fornum / 2);
 
-		btn_jian = (Button) findViewById(R.id.btn_jian);
-		btn_jian.setOnClickListener(this);
-		btn_shenfen = (Button) findViewById(R.id.btn_shenfen);
-		btn_shenfen.setOnClickListener(this);
-		btn_yao = (Button) findViewById(R.id.btn_yao);
-		btn_yao.setOnClickListener(this);
-		btn_zhiji = (Button) findViewById(R.id.btn_zhiji);
-		btn_zhiji.setOnClickListener(this);
-		btn_gongfa = (Button) findViewById(R.id.btn_gongfa);
-		btn_gongfa.setOnClickListener(this);
-		btn_luozhandaxia = (Button) findViewById(R.id.btn_luozhandaxia);
-		btn_luozhandaxia.setOnClickListener(this);
-		btn_zhaoshi = (Button) findViewById(R.id.btn_zhaoshi);
-		btn_zhaoshi.setOnClickListener(this);
-		btn_wanfa = (Button) findViewById(R.id.btn_wanfa);
-		btn_wanfa.setOnClickListener(this);
+//		btn_jian = (Button) findViewById(R.id.btn_jian);
+//		btn_jian.setOnClickListener(this);
+//		btn_shenfen = (Button) findViewById(R.id.btn_shenfen);
+//		btn_shenfen.setOnClickListener(this);
+//		btn_yao = (Button) findViewById(R.id.btn_yao);
+//		btn_yao.setOnClickListener(this);
+//		btn_zhiji = (Button) findViewById(R.id.btn_zhiji);
+//		btn_zhiji.setOnClickListener(this);
+//		btn_gongfa = (Button) findViewById(R.id.btn_gongfa);
+//		btn_gongfa.setOnClickListener(this);
+//		btn_luozhandaxia = (Button) findViewById(R.id.btn_luozhandaxia);
+//		btn_luozhandaxia.setOnClickListener(this);
+//		btn_zhaoshi = (Button) findViewById(R.id.btn_zhaoshi);
+//		btn_zhaoshi.setOnClickListener(this);
+//		btn_wanfa = (Button) findViewById(R.id.btn_wanfa);
+//		btn_wanfa.setOnClickListener(this);
 	}
 
 	@Override
@@ -119,18 +105,18 @@ public class MainActivity extends Activity implements OnClickListener {
 		Intent intent = new Intent(MainActivity.this, ImageListActivity.class);
 		intent.putExtra(ImageListActivity.EXTRA_TITLE, b.getText().toString());
 		switch (v.getId()) {
-		case R.id.btn_jian:
-		case R.id.btn_shenfen:
-		case R.id.btn_yao:
-		case R.id.btn_zhiji:
-		case R.id.btn_gongfa:
-		case R.id.btn_luozhandaxia:
-		case R.id.btn_zhaoshi:
-			intent.putExtra(ImageListActivity.EXTRA_TYPE, v.getId());
-			break;
-		case R.id.btn_wanfa:
-
-			return;
+//		case R.id.btn_jian:
+//		case R.id.btn_shenfen:
+//		case R.id.btn_yao:
+//		case R.id.btn_zhiji:
+//		case R.id.btn_gongfa:
+//		case R.id.btn_luozhandaxia:
+//		case R.id.btn_zhaoshi:
+//			intent.putExtra(ImageListActivity.EXTRA_TYPE, v.getId());
+//			break;
+//		case R.id.btn_wanfa:
+//
+//			return;
 		default:
 			break;
 		}
