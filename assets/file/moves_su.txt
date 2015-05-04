@@ -1,0 +1,12 @@
+[
+{"name":"百变千幻剑","imagepath":"moves_baibianqianhuanjian.jpg"},
+{"name":"打狗棒法","imagepath":"moves_dagoubangfa.jpg"},
+{"name":"独孤九剑","imagepath":"moves_dugujiujian.jpg"},
+{"name":"胡家刀法","imagepath":"moves_hujiadaofa.jpg"},
+{"name":"金蛇剑法","imagepath":"moves_jinshejianfa.jpg"},
+{"name":"狂风刀法","imagepath":"moves_kuangfengdaofa.jpg"},
+{"name":"辟邪剑法","imagepath":"moves_pixiejianfa.jpg"},
+{"name":"太极剑","imagepath":"moves_taijijian.jpg"},
+{"name":"越女剑法","imagepath":"moves_yuenvjianfa.jpg"},
+{"name":"万花剑法","imagepath":"moves_wanhuajianfa.jpg"}
+]

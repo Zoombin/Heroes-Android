@@ -1,0 +1,12 @@
+[
+{"name":"黯然销魂掌","imagepath":"moves_anranxiaohunzhang.jpg"},
+{"name":"奔雷掌","imagepath":"moves_benleizhang.jpg"},
+{"name":"寒冰掌","imagepath":"moves_hanbingzhang.jpg"},
+{"name":"化功大法","imagepath":"moves_huagongdafa.jpg"},
+{"name":"九阴白骨爪","imagepath":"moves_jiuyinbaiguzhua.jpg"},
+{"name":"拈花指","imagepath":"moves_nianhuazhi.jpg"},
+{"name":"七伤拳","imagepath":"moves_qishangquan.jpg"},
+{"name":"狮子吼","imagepath":"moves_shizihou.jpg"},
+{"name":"降龙十八掌","imagepath":"moves_xianglongshibazhang.jpg"},
+{"name":"玄冥神掌","imagepath":"moves_xuanminshenzhang.jpg"}
+]

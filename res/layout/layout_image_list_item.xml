@@ -3,15 +3,16 @@
     android:id="@+id/layout_item"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:padding="12dip" >
+    android:background="@drawable/btn_shot_selector"
+    android:orientation="vertical" >
 
     <TextView
         android:id="@+id/text_name"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textColor="#949494"
-        android:textSize="20sp" />
+        android:padding="15dip"
+        android:textColor="#ffffff"
+        android:textSize="22sp" />
 
 </LinearLayout>

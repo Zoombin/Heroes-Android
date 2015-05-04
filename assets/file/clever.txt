@@ -1,0 +1,13 @@
+[
+{"name":"单挑","imagepath":"clever_dantiao.jpg"},
+{"name":"剑魔下凡","imagepath":"clever_jianmoxiafan.jpg"},
+{"name":"吸星","imagepath":"clever_xixing.jpg"},
+{"name":"暗器","imagepath":"clever_anqi.jpg"},
+{"name":"掌门信物","imagepath":"clever_zhangmenxinwu.jpg"},
+{"name":"看破","imagepath":"clever_kanpo.jpg"},
+{"name":"近墨者黑","imagepath":"clever_jinmozhehei.jpg"},
+{"name":"冒名顶替","imagepath":"clever_maomingdingti.jpg"},
+{"name":"指点","imagepath":"clever_zhidian.jpg"},
+{"name":"西湖底牢","imagepath":"clever_xihulaodi.jpg"},
+{"name":"疗伤","imagepath":"clever_liaoshang.jpg"}
+]

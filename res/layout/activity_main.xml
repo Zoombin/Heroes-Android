@@ -15,12 +15,11 @@
             android:background="@drawable/main_nav_bg"
             android:gravity="left|center_vertical"
             android:paddingBottom="8dip"
-            android:paddingTop="8dip"
             android:paddingLeft="5dip"
+            android:paddingTop="8dip"
             android:text="请左右滑动选择大侠类型："
             android:textColor="@android:color/white"
             android:textSize="20sp" />
-
     </RelativeLayout>
 
     <com.juhe.heroes.widget.CustomScrollView
@@ -54,6 +53,7 @@
                 android:id="@+id/btn_card"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="6dip"
                 android:background="@drawable/btn_shot_selector"
                 android:gravity="center"
                 android:paddingBottom="15dip"
@@ -96,7 +96,8 @@
                 android:paddingTop="15dip"
                 android:text="扩展包"
                 android:textColor="@android:color/white"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:visibility="gone" />
         </LinearLayout>
     </com.juhe.heroes.widget.CustomScrollView>
 

@@ -1,0 +1,12 @@
+[
+{"name":"郭靖","imagepath":"hero_guojing.jpg"},
+{"name":"海大富","imagepath":"hero_haidafu.jpg"},
+{"name":"洪七公","imagepath":"hero_hongqigong.jpg"},
+{"name":"梅超风","imagepath":"hero_meichaofeng.jpg"},
+{"name":"欧阳锋","imagepath":"hero_ouyangfeng.jpg"},
+{"name":"任我行","imagepath":"hero_renwoxing.jpg"},
+{"name":"杨过","imagepath":"hero_yangguo.jpg"},
+{"name":"左冷禅","imagepath":"hero_zuolengchan.jpg"},
+{"name":"谢逊","imagepath":"hero_xiexun.jpg"},
+{"name":"乔峰","imagepath":"hero_qiaofeng.jpg"}
+]

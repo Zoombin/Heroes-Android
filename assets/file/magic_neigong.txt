@@ -1,0 +1,17 @@
+[
+{"name":"八荒六合神功","imagepath":"magic_bahuangliuheshengong.jpg"},
+{"name":"九阳神功","imagepath":"magic_jiuyangshengong.jpg"},
+{"name":"九阴真经","imagepath":"magic_jiuyinzhenjing.jpg"},
+{"name":"葵花宝典","imagepath":"magic_kuihuabaodian.jpg"},
+{"name":"龙象波若功","imagepath":"magic_longxiangbanruogong.jpg"},
+{"name":"三花聚顶","imagepath":"magic_sanhuajuding.jpg"},
+{"name":"天罗地网势","imagepath":"magic_tianluodiwangshi.jpg"},
+{"name":"透骨打穴","imagepath":"magic_tougudaxue.jpg"},
+{"name":"五毒功","imagepath":"magic_wudugong.jpg"},
+{"name":"无极功","imagepath":"magic_wujigong.jpg"},
+{"name":"小无相功","imagepath":"magic_xiaowuxianggong.jpg"},
+{"name":"吸血功","imagepath":"magic_xixiegong.jpg"},
+{"name":"杂阿含功","imagepath":"magic_zaahangong.jpg"},
+{"name":"玉女心经","imagepath":"magic_yunvxinjing.jpg"},
+{"name":"左右互搏","imagepath":"magic_zuoyouhubo.jpg"}
+]

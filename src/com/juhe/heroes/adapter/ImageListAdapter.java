@@ -16,18 +16,17 @@ import com.juhe.heroes.R;
 import com.juhe.heroes.activity.ImageDetailActivity;
 import com.juhe.heroes.entity.ImageEntity;
 
-
 /***
  * 
  * @author daiye
  * 
  */
-public class ImageAdapter extends BaseAdapter {
+public class ImageListAdapter extends BaseAdapter {
 	List<ImageEntity> list;
 
 	private Context mContext;
 
-	public ImageAdapter(Context context) {
+	public ImageListAdapter(Context context) {
 		this.mContext = context;
 	}
 
@@ -54,7 +53,7 @@ public class ImageAdapter extends BaseAdapter {
 	@Override
 	public View getView(final int position, View convertView, ViewGroup parent) {
 		final ImageEntity entity = list.get(position);
-		
+
 		final Tag tag;
 		if (convertView == null) {
 			tag = new Tag();
@@ -66,17 +65,8 @@ public class ImageAdapter extends BaseAdapter {
 		} else {
 			tag = (Tag) convertView.getTag();
 		}
-		
+
 		tag.text_name.setText(entity.getName());
-		tag.layout_item.setOnClickListener(new OnClickListener() {
-			
-			@Override
-			public void onClick(View v) {
-				Intent intent = new Intent(mContext, ImageDetailActivity.class);
-				intent.putExtra(ImageDetailActivity.EXTRA_IMAGE, entity.getImagepath());
-				mContext.startActivity(intent);
-			}
-		});
 		return convertView;
 	}
 

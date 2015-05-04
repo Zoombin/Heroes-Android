@@ -38,19 +38,43 @@
         </activity>
         <activity
             android:name="com.juhe.heroes.activity.MainActivity"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.juhe.heroes.activity.GameRuleActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.juhe.heroes.activity.GameVersionActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.juhe.heroes.activity.ImageCategoryActivity"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="com.juhe.heroes.activity.ImageListActivity"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.juhe.heroes.activity.ImageViewPageActivity"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="com.juhe.heroes.activity.ImageDetailActivity"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            android:screenOrientation="portrait" >
         </activity>
+        <activity
+            android:name="com.juhe.heroes.activity.MovesCategoryActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.juhe.heroes.activity.MagicCategoryActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 背景音乐 -->
+        <service android:name="com.juhe.heroes.service.BgMusicService" />
     </application>
 
 </manifest>

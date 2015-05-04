@@ -1,0 +1,12 @@
+[
+{"name":"蛤蟆功","imagepath":"moves_hamagong.jpg"},
+{"name":"火焰刀","imagepath":"moves_huoyandao.jpg"},
+{"name":"金蛇缠丝手","imagepath":"moves_jinshechansishou.jpg"},
+{"name":"六脉神剑","imagepath":"moves_liumaishenjian.jpg"},
+{"name":"如来千手式","imagepath":"moves_rulaiqianshoushi.jpg"},
+{"name":"少林龙抓手","imagepath":"moves_shaolinlongzhuashou.jpg"},
+{"name":"弹指神通","imagepath":"moves_tanzhishentong.jpg"},
+{"name":"天山折梅手","imagepath":"moves_tianshanzhemeishou.jpg"},
+{"name":"鹰爪手","imagepath":"moves_yingzhuashou.jpg"},
+{"name":"一阳指","imagepath":"moves_yiyangzhi.jpg"}
+]

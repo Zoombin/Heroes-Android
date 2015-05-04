@@ -1,0 +1,6 @@
+[
+{"name":"武林盟主","imagepath":"identity_wulinmengzhu.jpg"},
+{"name":"朝廷","imagepath":"identify_chaoting.jpg"},
+{"name":"正派","imagepath":"identify_zhengpai.jpg"},
+{"name":"魔教","imagepath":"identify_mojiao.jpg"}
+]

@@ -1,0 +1,12 @@
+[
+{"name":"凌波微步","imagepath":"magic_lingboweibu.jpg"},
+{"name":"少林雁行劲","imagepath":"magic_shaolinyanxingjin.jpg"},
+{"name":"神行百变","imagepath":"magic_shenxingbaibian.jpg"},
+{"name":"水上漂","imagepath":"magic_shuishangpiao.jpg"},
+{"name":"四象步法","imagepath":"magic_sixiangbufa.jpg"},
+{"name":"踏雪无痕","imagepath":"magic_taxuewuhen.jpg"},
+{"name":"梯云纵","imagepath":"magic_tiyunzong.jpg"},
+{"name":"逍遥游","imagepath":"magic_xiaoyaoyou.jpg"},
+{"name":"游龙引凤","imagepath":"magic_youlongyinfeng.jpg"},
+{"name":"云龙三折","imagepath":"magic_yunlongsanzhe.jpg"}
+]

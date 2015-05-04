@@ -1,0 +1,4 @@
+[
+{"name":"基础版","version":1},
+{"name":"标准版","version":2}
+]

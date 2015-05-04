@@ -1,0 +1,12 @@
+[
+{"name":"大力金刚掌","imagepath":"moves_dalijingangzhang.jpg"},
+{"name":"分筋错骨手","imagepath":"moves_fenjincuogushou.jpg"},
+{"name":"化骨绵掌","imagepath":"moves_huagumianzhang.jpg"},
+{"name":"少林罗汉拳","imagepath":"moves_luohanquan.jpg"},
+{"name":"劈空掌","imagepath":"moves_pikongzhang.jpg"},
+{"name":"少林般若掌","imagepath":"moves_shaolinbanruozhang.jpg"},
+{"name":"天山六阳掌","imagepath":"moves_tianshanliuyangzhang.jpg"},
+{"name":"铁掌","imagepath":"moves_tiezhang.jpg"},
+{"name":"五毒掌","imagepath":"moves_wuduzhang.jpg"},
+{"name":"沾衣十八跌","imagepath":"moves_zhanyishibadie.jpg"}
+]

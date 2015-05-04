@@ -1,0 +1,6 @@
+[
+{"name":"十香软筋散","imagepath":"drug_shixiangruanjinsan.jpg"},
+{"name":"悲酡清风","imagepath":"drug_beisuqingfeng.jpg"},
+{"name":"无常丹","imagepath":"drug_wuchangdan.jpg"},
+{"name":"黑玉断续膏","imagepath":"drug_heiyuduanxugao.jpg"}
+]

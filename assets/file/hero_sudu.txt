@@ -1,0 +1,12 @@
+[
+{"name":"陈近南","imagepath":"hero_chenjinnan.jpg"},
+{"name":"东方不败","imagepath":"hero_dongfangbubai.jpg"},
+{"name":"冯锡范","imagepath":"hero_fengxifan.jpg"},
+{"name":"胡斐","imagepath":"hero_hufei.jpg"},
+{"name":"令狐冲","imagepath":"hero_linghuchong.jpg"},
+{"name":"田伯光","imagepath":"hero_tianboguang.jpg"},
+{"name":"韦一笑","imagepath":"hero_weiyixiao.jpg"},
+{"name":"小龙女","imagepath":"hero_xiaolongnv.jpg"},
+{"name":"夏雪宜","imagepath":"hero_xiaxueyi.jpg"},
+{"name":"岳不群","imagepath":"hero_yubuqun.jpg"}
+]

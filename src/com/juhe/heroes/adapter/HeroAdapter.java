@@ -11,6 +11,8 @@ import android.widget.ImageView;
 
 import com.juhe.heroes.activity.ImageListActivity;
 import com.juhe.heroes.entity.HeroEntity;
+import com.juhe.heroes.utils.Config;
+import com.juhe.heroes.utils.Config.FileType;
 import com.juhe.heroes.widget.autoscrollviewpager.RecyclingPagerAdapter;
 import com.juhe.heroes.widget.viewpage.CirclePageIndicator;
 import com.nostra13.universalimageloader.core.ImageLoader;
@@ -32,8 +34,7 @@ public class HeroAdapter extends RecyclingPagerAdapter {
 	@Override
 	public int getCount() {
 		// Infinite loop
-		return isInfiniteLoop ? getSize(infos) * CirclePageIndicator.fornum
-				: getSize(infos);
+		return isInfiniteLoop ? getSize(infos) * CirclePageIndicator.fornum : getSize(infos);
 	}
 
 	public <V> int getSize(List<V> sourceList) {
@@ -64,16 +65,29 @@ public class HeroAdapter extends RecyclingPagerAdapter {
 			holder = (ViewHolder) view.getTag();
 		}
 
-		ImageLoader.getInstance().displayImage(entity.getImagepath(),
-				holder.imageView);
+		ImageLoader.getInstance().displayImage(Config.IMG_PATH + entity.getImagepath(), holder.imageView);
 		holder.imageView.setOnClickListener(new OnClickListener() {
 
 			@Override
 			public void onClick(View v) {
 				Intent intent = new Intent();
 				intent.setClass(context, ImageListActivity.class);
-				intent.putExtra(ImageListActivity.EXTRA_TITLE, "英雄列表");
-				intent.putExtra(ImageListActivity.EXTRA_TYPE, entity.getId());
+				String title = entity.getName();
+				String type = "";
+				if (1 == entity.getId()) {
+					type = FileType.HERO_liliang;
+				}
+				if (2 == entity.getId()) {
+					type = FileType.HERO_jiqiao;
+				}
+				if (3 == entity.getId()) {
+					type = FileType.HERO_zhenqi;
+				}
+				if (4 == entity.getId()) {
+					type = FileType.HERO_sudu;
+				}
+				intent.putExtra(ImageListActivity.EXTRA_TITLE, title);
+				intent.putExtra(ImageListActivity.EXTRA_TYPE, type);
 				context.startActivity(intent);
 			}
 		});

@@ -1,0 +1,4 @@
+[
+{"name":"速1x2","imagepath":"moves_su_1x2.jpg"},
+{"name":"速2x2","imagepath":"moves_su_2x2.jpg"}
+]

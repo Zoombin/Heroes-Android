@@ -1,0 +1,5 @@
+[
+{"name":"屠龙刀","imagepath":"weapon_tulongdao.jpg"},
+{"name":"倚天剑","imagepath":"weapon_yitianjian.jpg"},
+{"name":"玄铁剑","imagepath":"weapon_xuantiejian.jpg"}
+]

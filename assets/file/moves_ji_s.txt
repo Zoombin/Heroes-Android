@@ -1,0 +1,6 @@
+[
+{"name":"技1x1","imagepath":"moves_ji_1x1.jpg"},
+{"name":"技1x6","imagepath":"moves_ji_1x6.jpg"},
+{"name":"技2x2","imagepath":"moves_ji_2x2.jpg"},
+{"name":"技2x3","imagepath":"moves_ji_2x3.jpg"}
+]

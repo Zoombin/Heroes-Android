@@ -1,0 +1,6 @@
+[
+{"name":"气1x1","imagepath":"moves_qi_1x1.jpg"},
+{"name":"气1x2","imagepath":"moves_qi_1x2.jpg"},
+{"name":"气2x1","imagepath":"moves_qi_2x1.jpg"},
+{"name":"气2x2","imagepath":"moves_qi_2x2.jpg"}
+]

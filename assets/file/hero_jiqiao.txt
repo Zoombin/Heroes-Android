@@ -1,0 +1,12 @@
+[
+{"name":"丁春秋","imagepath":"hero_dingchunqiu.jpg"},
+{"name":"段誉","imagepath":"hero_duanyu.jpg"},
+{"name":"洪安通","imagepath":"hero_hongantong.jpg"},
+{"name":"黄药师","imagepath":"hero_huangyaoshi.jpg"},
+{"name":"鸠摩智","imagepath":"hero_jiumozhi.jpg"},
+{"name":"蓝凤凰","imagepath":"hero_lanfenghuang.jpg"},
+{"name":"慕容复","imagepath":"hero_murongfu.jpg"},
+{"name":"天山童姥","imagepath":"hero_tianshantonglao.jpg"},
+{"name":"一灯禅师","imagepath":"hero_yidengchanshi.jpg"},
+{"name":"殷天正","imagepath":"hero_yintianzheng.jpg"}
+]

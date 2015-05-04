@@ -1,0 +1,12 @@
+[
+{"name":"方证大师","imagepath":"hero_fangzhengdashi.jpg"},
+{"name":"鳌拜","imagepath":"hero_aobai.jpg"},
+{"name":"金轮法王","imagepath":"hero_jinlunfawang.jpg"},
+{"name":"张无忌","imagepath":"hero_zhangwuji.jpg"},
+{"name":"成昆","imagepath":"hero_chengkun.jpg"},
+{"name":"虚竹","imagepath":"hero_xuzhu.jpg"},
+{"name":"裘千仞","imagepath":"hero_qiuqianren.jpg"},
+{"name":"张三丰","imagepath":"hero_zhangsanfeng.jpg"},
+{"name":"游坦之","imagepath":"hero_youtanzhi.jpg"},
+{"name":"周伯通","imagepath":"hero_zhoubotong.jpg"}
+]

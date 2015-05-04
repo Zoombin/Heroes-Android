@@ -1,0 +1,6 @@
+[
+{"name":"技招式","imagepath":"moves_ji.jpg"},
+{"name":"力招式","imagepath":"moves_li.jpg"},
+{"name":"气招式","imagepath":"moves_qi.jpg"},
+{"name":"速招式","imagepath":"moves_su.jpg"}
+]

@@ -1,0 +1,6 @@
+[
+{"id":1,"name":"力量大侠","imagepath":"hero_type_liliang.jpg"},
+{"id":2,"name":"技巧大侠","imagepath":"hero_type_jiqiao.jpg"},
+{"id":3,"name":"真气大侠","imagepath":"hero_type_zhenqi.jpg"},
+{"id":4,"name":"速度大侠","imagepath":"hero_type_sudu.jpg"}
+]

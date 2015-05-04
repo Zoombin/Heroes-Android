@@ -1,0 +1,9 @@
+[
+{"name":"北冥神功","imagepath":"magic_beiminshengong.jpg"},
+{"name":"闭穴功","imagepath":"magic_bixuegong.jpg"},
+{"name":"地火功","imagepath":"magic_dihuogong.jpg"},
+{"name":"混元气","imagepath":"magic_hunyuanqi.jpg"},
+{"name":"少林洗髓经","imagepath":"magic_shaolinxisuijing.jpg"},
+{"name":"少林易筋经","imagepath":"magic_shaolinyijinjing.jpg"},
+{"name":"移宫易穴","imagepath":"magic_yigongyixue.jpg"}
+]
